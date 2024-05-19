@@ -1,0 +1,19 @@
+.grass-area {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    background-color: aqua;
+    
+    width: 800px;
+    height: 800px;
+  
+    position: relative;
+    z-index: 1;
+  }
+  
+  .grass-tile {
+    background-image: url("../src/assets/grass.png");
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+  }
